@@ -2,11 +2,13 @@ import React from 'react'
 import Layout from '../components/Layout'
 import StyledHero from '../components/StyledHero'
 import { graphql } from 'gatsby'
+import ToursComponent from '../components/Tours/Tours'
 
 const Tours = ({ data }) => {
     return (
         <Layout>
-            <StyledHero img={data.toursBcg.childImageSharp.fluid} />{' '}
+            <StyledHero img={data.toursBcg.childImageSharp.fluid} />
+            <ToursComponent />
         </Layout>
     )
 }
