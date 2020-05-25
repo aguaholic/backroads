@@ -7,6 +7,7 @@ import Day from '../components/SingleTour/Day'
 import Img from 'gatsby-image'
 import styles from '../css/template.module.css'
 import { FaMoneyBillWave, FaMap } from 'react-icons/fa'
+import SEO from '../components/SEO'
 
 const tourTemplate = ({ data }) => {
     const {
@@ -23,6 +24,7 @@ const tourTemplate = ({ data }) => {
     const [mainImage, ...tourImages] = images
     return (
         <Layout>
+            <SEO title={name} />
             <StyledHero img={mainImage.fluid} />
             <section className={styles.template}>
                 <div className={styles.center}>
