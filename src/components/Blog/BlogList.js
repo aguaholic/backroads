@@ -15,7 +15,7 @@ const getPost = graphql`
                     slug
                     image {
                         fluid {
-                            ...GatsbyContentfulFluid_tracedSVG
+                            ...GatsbyContentfulFluid
                         }
                     }
                 }

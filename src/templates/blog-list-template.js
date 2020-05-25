@@ -74,7 +74,7 @@ export const query = graphql`
                     published(formatString: "MMMM Do, YYYY")
                     image {
                         fluid {
-                            ...GatsbyContentfulFluid_tracedSVG
+                            ...GatsbyContentfulFluid
                         }
                     }
                 }
