@@ -1,6 +1,6 @@
-#BackRoads
+# BackRoads
 
-###Touristic agency app made with Gatsby, React, Contentful and Netlify
+### Touristic agency app made with Gatsby, React, Contentful and Netlify
 
 Deployed here => https://backroads-joy.netlify.app/
 
